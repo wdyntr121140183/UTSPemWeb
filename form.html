@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="logo">
+            <img src="img/logo_itera_bulet_head.webp" alt="">
+
+            <p>UTS Pemrograman Web</p>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <nav class="sidebar">
+            <div class="logo">
+                <a href="#"><span>W</span>dyntr</a>
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="tabel.html"><i class="fa fa-list"></i> Tabel</a></li>
+                <li><a href="form.html"><i class="fa-solid fa-mobile"></i> Form</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            
+            <section class="form section" id="form">
+                <div class="container">
+                    <div class="row">
+                        <div class="judul">
+                            <h2>Pendaftaran</h2>
+                        </div>
+                    </div>
+
+                    <h3 class="formTitle">Form Pendaftaran</h3>
+
+                    <div class="set">
+
+                        <div class="form-info-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call</h4>
+                            <p>(0721)8030188</p>
+                        </div>
+
+                        <div class="form-info-item">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Campus</h4>
+                            <p>Lampung</p>
+                        </div>
+
+                        <div class="form-info-item">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>itera.ac.id</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form class="form-form" method="post">
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="Name"><i class="fa-solid fa-user"></i></label>
+                                        <input required id="nama" type="text" class="form-control" placeholder="Nama" name="Name">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                                        <input required id="email" type="email" class="form-control" placeholder="Email"
+                                            name="email">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="nim"><i class="fa-solid fa-list-ol"></i></label>
+                                        <input required id="nim" type="text" class="form-control" placeholder="NIM" name="nim">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="prodi"><i class="fa-solid fa-building-columns"></i></label>
+                                        <input required id="prodi" class="form-control" placeholder="Program Studi" name="prodi"
+                                            type="text"></input>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="pass"><i class="fa-solid fa-lock"></i></label>
+                                        <input required id="pass" type="password" class="form-control" placeholder="Password"
+                                            name="pass">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="kelamin"><i class="fa-solid fa-venus-mars"></i></label>
+                                        <input required id="kelamin" class="form-control" placeholder="Jenis Kelamin" name="kelamin"
+                                            type="text"></input>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="tgl-lahir"><i class="fa-solid fa-calendar-days"></i></label>
+                                        <input required id="tgl" type="text" class="form-control" placeholder="Tanggal Lahir"
+                                            name="tgl-lahir">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <label for="alamat"><i class="fa-solid fa-house"></i></label>
+                                        <input required id="alamat" class="form-control" placeholder="Alamat" name="alamat"
+                                            type="text"></input>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12">
+                                    <button class="btn" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/wdyntr-121140183"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="#">Widyantoro</a>. &copy; 2023.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
